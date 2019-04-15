@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style></style>
+  </head>
+  <body>
+  <button onclick="myFunction()">Last updated</button>
+
+<p id="demo"></p>
+  <script>
+  var d = new Date();
+  var n = d.getTime();
+  var c = n-1555348194859;
+  var t = c/1000;
+  
+   document.getElementById("demo").innerHTML = t + "Seconds ago";
+</script>
+  </body>
+</html>
