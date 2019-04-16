@@ -5,18 +5,17 @@
     <style></style>
   </head>
   <body>
-  <button onclick="myFunction()">Last updated</button>
+  <span id = "demo">Last updated</span>
 
-<p id="demo"></p>
   <script>
-    function myFunction() {
+  
   var d = new Date();
   var n = d.getTime();
   var c = n-1555348194859;
   var t = c/1000;
   var gt = Math.floor(t);
   document.getElementById("demo").innerHTML = gt + " Seconds ago";
-    }
+    
 </script>
   </body>
 </html>
